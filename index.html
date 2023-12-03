@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Weather Application</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="search-section search">
+            <input type="search" placeholder="Enter the City Name" >
+            <i class="fas fa-search" id="searchBtn"></i>
+        </div>
+        <div class="weather-container">
+            <div class="city-image">
+                <h2 class="city"></h2>
+                <div class="weather">
+                    <img src="https://cdn-icons-png.flaticon.com/128/3222/3222801.png" alt="Weather Icon" class="img">
+                    <h3 class="temp"></h3>
+                    <p class="humidity"></p>
+                    <p class="wspd"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
